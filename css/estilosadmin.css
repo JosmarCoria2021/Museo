@@ -1,0 +1,151 @@
+/*
+Hoja de estilo responsivo y con transiciones
+Autor:
+*/
+body{
+	background-color: #111;
+	color:rgb(0, 177, 59);
+}
+a:link{color:rgb(255, 255, 255);}
+a:visited{color:rgb(226, 43, 43); font-weight: lighter;}
+a:hover{color:rgb(139, 0, 0); font-weight: bold;}
+a.menu{
+	display: block;
+}
+p{
+	margin-left: 0.5em;
+	margin-bottom: 0.06em;
+	border-style: inset;
+  border-width: medium;
+	border-color: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+p.otro{
+	border-style: outset;
+}
+
+body{
+	font-family: Verdana, Helvetica, Arial, "Times New Roman";
+	color: rgb(0, 0, 0);
+	margin-block-start: 0.1em;
+	margin-block-end: 0.1em;
+	margin-inline-start: 0.3em;
+	margin-inline-end: 0.2em;
+}
+img, video, canvas {
+  max-width: 100%;
+}
+
+header {
+	padding-top: 10px;
+	height: 5em;
+	color: rgb(255, 255, 255);
+	font-weight:bold;
+	font-size: large;
+	/*background-color: rgb(97, 55, 0);*/
+	background-color: rgb(0, 0, 0);
+	text-transform: capitalize;
+	text-shadow: 0.2em 0.2em 0.5em rgb(139, 0, 0); /*sombra horizontal y sombra vertical*/
+}
+
+figure.logo{
+	display: inline;
+	width:10px;
+	height:10px;
+}
+
+img.logo{
+	width:70px;
+	height:70px;
+}
+
+nav {
+	background-color:black;
+	padding: 5px 15px;
+	padding-bottom: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(14, 12, 12);
+  }
+  
+ nav li {
+	float: left;
+  }
+  
+ nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+ nav li a:hover {
+	background-color: rgba(75, 2, 14, 0.712);
+  }
+  
+ nav .active {
+	background-color: blue;
+  }
+
+section {
+
+	float: left;
+	width: 75%;
+	height: auto;
+	min-height: 30em;
+	margin: 20px;
+	background-color:rgba(0, 0, 0, 0.651);
+	text-transform: none;
+}
+
+footer{
+	color: rgb(255, 255, 255);
+	width: 100%;
+	height: auto;
+	font-size: 75%;
+	padding: 0.625em 0.9em 1.4em;
+	background-color:rgba(0, 0, 0, 0.651);
+	text-align: center;
+	min-height: 2em;
+	float: left;
+}
+
+#titPral{
+	display: inline;
+	vertical-align:90%;
+}
+
+/* Para ajuste responsivo*/
+@media screen and (max-width: 800px){
+	header {
+		height: auto;
+	}
+	nav {
+		float: none;
+		width: auto;
+	}
+	section {
+		float: left;
+		width: auto;
+	}
+
+	aside {
+		float: rigth;
+		width: auto;
+	}
+
+}
+menu{
+display: block;
+color: #fff;
+height: 50px;
+text-decoration: none;
+padding: 15px;
+border-bottom: 1px solid rgba(255,255,255,0.5);
+}

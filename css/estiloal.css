@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'uwu';
+    src: url('../font/black.ttf') format('truetype');
+  }
+
+
+
+body{
+    background-image: url("../img/1.jpg");
+	/*background-color: #000;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+    opacity: 90%;
+	color: rgb(255, 255, 255);
+}
+
+form{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgba(147, 0, 0, 0.652);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'uwu';
+	font-size: 45px;
+	background-color: rgb(147, 0, 0);
+	color: white;
+}
+
+h2{
+	text-align: center;
+    font-family: 'uwu';
+	font-size: 25px;
+	background-color: rgb(147, 0, 0);
+	color: white;
+}
+
+.contenedor2{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgba(147, 0, 0, 0.652);
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+}
+
+form input[type="text"]{
+	width: 95%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display: table-row-group;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+.especializacion, .cursos , .tipo_curso{
+    text-align: center;
+}
+/*extras*/
+div.cursos .campo {
+	width: 33.3%;
+	float:right;
+	margin-bottom: 15px;
+}
+div.tipo_curso > .campo {
+	width: 50%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.regresar .reg{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}

@@ -1,0 +1,48 @@
+
+aside{
+
+	float: right;
+	background-color: black;
+	display: block;
+	color: white;
+	width: 220px;
+	height: 440px;
+	text-decoration: none;
+	margin: 20px 0px ;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+	border: 1px solid #91071e;
+	/* Pintamos las lineas de todos los lados, excepto el inferior, ya que cada
+	   'li' ya trae el borde inferior */
+	border-width: 1px 1px 1px 1px;
+	/* Determina la anchura del menu */
+	width: 230px;
+	font-family: Arial;
+	font-size: 1em;
+}
+ 
+/* Por defecto ul genera una separación hacia la derecha. con margin:0 queda anulada */
+aside ul {
+	margin: 0;
+	padding: 0;
+}
+ 
+aside li {
+	/* Eliminamos las marcas que genera el li como pueden ser las redonadas o recuadros */
+	list-style-type: none;
+	/* En cada li, pintamos la linea inferior */
+	border-bottom: 1px solid #6643ff;
+}
+ 
+aside a {
+	display: block;
+	text-decoration: none;
+	color: #3f001d9f;
+	background: #000000;
+	padding: 15px 15px 15px 15px;
+}
+ 
+aside a:hover {
+	background: #4e051198;
+}

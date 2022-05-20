@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'uwu';
+    src: url('../font/black.ttf') format('truetype');
+  }
+
+body{
+    background-image: url("../img/fondo.jpeg");
+    background-size: cover;
+}
+
+.titulo h1{
+    text-align: center;
+    font-family: uwu;
+    font-size: 50px;
+    color: white;
+}
+
+#pie .a{
+    text-align: center;
+    font-family: uwu;
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+.imagenes{
+    float: center;
+    padding-top: 25px;
+}
+
+.fancybox{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
